@@ -1,0 +1,13 @@
+{
+  "name": "doubleu-academy-club-manager",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "typecheck": "node --check public/app.js && node --check scripts/serve.mjs && node --check scripts/build.mjs",
+    "lint": "node scripts/lint.mjs",
+    "test": "node tests/app.test.mjs"
+  }
+}
