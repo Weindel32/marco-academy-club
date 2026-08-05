@@ -1,0 +1,72 @@
+.role-context {
+  margin: 0 4px 18px;
+  padding: 12px;
+  border: 1px solid #34584d;
+  background: #1d4036;
+  border-radius: 12px;
+}
+
+.role-context span {
+  display: block;
+  color: var(--lime);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .11em;
+  font-weight: 800;
+}
+
+.role-context strong {
+  display: block;
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.role-context small {
+  display: block;
+  color: #9eb5ad;
+  font-size: 10px;
+  line-height: 1.35;
+  margin-top: 4px;
+}
+
+.quick-actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.quick-link {
+  border: 1px solid var(--line);
+  background: #f7f8f4;
+  border-radius: 13px;
+  padding: 16px 10px;
+  text-align: left;
+  color: var(--ink);
+}
+
+.quick-link:hover {
+  border-color: #aebcae;
+  background: #f2f6e7;
+}
+
+.quick-link b {
+  display: block;
+  font-size: 24px;
+  color: var(--pine);
+}
+
+.quick-link span {
+  display: block;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+@media (max-width: 760px) {
+  .quick-actions { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 420px) {
+  .quick-actions { grid-template-columns: 1fr; }
+}
